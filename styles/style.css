@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #b8dfb7;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.area_one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+
+
+}
+
+.area_two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+
+}
+
+.sign_in_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+
+
+
+}
+
+.sign_up_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+input,
+button {
+
+    margin-top: 20px;
+}
+
+input {
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    opacity: 0.9;
+}
+
+input:focus {
+    background-color: #e3e2e2;
+    border: none;
+
+
+}
+
+h2 {
+    margin: 0;
+    color: 	#444238;
+}
+
+#btn {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #444238;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+#btn:hover {
+    background-color: #60965b;
+    box-shadow: 0px 15px 20px rgba(154, 210, 132, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+#btn:active {
+    transform: translateY(-1px);
+}
+
+.error {
+    font-size: 80%;
+    color: red;
+    list-style-type: none;
+    text-align: center;
+}
+
+.success {
+    font-size: 80%;
+    color: green;
+    list-style-type: none;
+    text-align: center;
+
+}
